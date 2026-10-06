@@ -1,0 +1,35 @@
+Repository packaging note: this folder contains the reviewed video, poster and
+subtitle tracks. The original renderer is supplied separately in the video source
+archive. The video and poster are renamed here to intro.zh-Hant.mp4 and poster.jpg.
+The original license scope notice is preserved below.
+
+License scope — WeType Quick illustrated introduction
+
+The accompanying MIT License, with copyright notice "Copyright (c) 2026
+wetype-quick contributors", applies to the newly authored material in this
+video package:
+
+- the renderer source in source/render.py;
+- the authored text, timing and subtitle translations in source/content.json
+  and the .srt files;
+- the original explanatory graphics, illustrations, animation and composition
+  embodied in wetype-quick-intro.zh-Hant.mp4 and wetype-quick-poster.jpg/.png;
+- the newly authored README and supporting verification documentation.
+
+Preserve LICENSE and this notice when redistributing the source package or
+substantial portions of these materials. When publishing the video or poster
+separately, provide the copyright and MIT permission notice with the distributed
+work or its accompanying description/documentation.
+
+Third-party exclusions
+
+The license does not apply to Tencent's original WeType / 微信輸入法 application,
+its implementation, assets, trademarks, libraries, speech services or models.
+Mentioning or describing them grants no rights to them and implies no affiliation
+or endorsement. This package contains no original or modified host APK or
+original Tencent UI captures/assets.
+
+Noto Sans CJK is used as a system font at render time. Its font binaries are not
+included or relicensed by this package. Noto fonts, Pillow, Python and FFmpeg
+remain separately licensed dependencies; obtain them with their own applicable
+licenses and notices. No dependency binaries are bundled here.

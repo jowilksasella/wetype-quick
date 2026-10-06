@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "reviewed_date": "2026-10-05",
+  "purpose": "Preserve three reviewed traditional/Hong Kong forms that OpenCC STCharacters normalizes to another traditional form. This is not a blanket reversal of the simplified-character filter.",
+  "entries": [
+    {
+      "character": "群",
+      "opencc_target": "羣",
+      "reason": "A normal traditional form used in Hong Kong Cantonese and traditional Mandarin; OpenCC's preferred variant does not make this spelling simplified-only.",
+      "evidence_urls": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/pho-rel.php?s1=kw&s2=an",
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=103808&la=1&powerMode=0",
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=6729&la=0&powerMode=0"
+      ]
+    },
+    {
+      "character": "峰",
+      "opencc_target": "峯",
+      "reason": "A normal traditional form documented in the Chinese University of Hong Kong Cantonese character database and Taiwan Ministry of Education dictionary.",
+      "evidence_urls": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/pho-rel.php?s1=f&s2=ung&s3=1",
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1736&word=%3D%E5%B3%B0",
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=37377&la=0&powerMode=0"
+      ]
+    },
+    {
+      "character": "晒",
+      "opencc_target": "曬",
+      "reason": "A traditional variant and common Cantonese spelling documented alongside 曬 by the Chinese University of Hong Kong; also present in traditional Ministry of Education dictionary entries. Keep this spelling without replacing it with 曬.",
+      "evidence_urls": [
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%99%92",
+        "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/pho-rel.php?s1=s&s2=aai",
+        "https://dict.revised.moe.edu.tw/searchR.jsp?ID=4&ID=6&ID=72&la=0&powerMode=0&word=%E6%99%92"
+      ]
+    }
+  ],
+  "data_reuse": "Only reviewed character classifications and reference links are recorded. No dictionary definitions, pronunciations, or corpora are copied from the evidence websites. All character/code entries still come unchanged from the pinned MIT Cangjie source."
+}

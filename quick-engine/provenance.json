@@ -1,0 +1,136 @@
+{
+  "retrieved_date": "2026-10-05",
+  "sources": [
+    {
+      "repository": "https://github.com/cangjie-system/rime-cangjie-integrated",
+      "commit": "dcfba770189078a2f7b347793c8e155c3c39275d",
+      "path": "cangjie.5-base.dict.yaml",
+      "url": "https://github.com/cangjie-system/rime-cangjie-integrated/blob/dcfba770189078a2f7b347793c8e155c3c39275d/cangjie.5-base.dict.yaml",
+      "local_path": "vendor/cangjie-system/cangjie.5-base.dict.yaml",
+      "license": "MIT",
+      "size": 1013915,
+      "sha256": "c909ee240f7f104bdf9841493cdae677fcd27c201e17eee679044714a9f132d5",
+      "git_blob_sha1": "5b405b8e0d8b37c37a639c3a6ec06af6c52b2852"
+    },
+    {
+      "repository": "https://github.com/BYVoid/OpenCC",
+      "commit": "3ac34aa439a9908dd49fa92b5174b46314787ac2",
+      "path": "data/dictionary/STCharacters.txt",
+      "url": "https://github.com/BYVoid/OpenCC/blob/3ac34aa439a9908dd49fa92b5174b46314787ac2/data/dictionary/STCharacters.txt",
+      "local_path": "vendor/opencc/data/dictionary/STCharacters.txt",
+      "license": "Apache-2.0",
+      "size": 36026,
+      "sha256": "a0ca1601c70648cf48b33c3c6210ccbecc5c7eead4b4c3daf76587ba2c03582b",
+      "git_blob_sha1": "677e8fbc70dcdc1da477b9f6c9f42a6b33609ae0"
+    },
+    {
+      "repository": "https://github.com/rime/rime-cantonese",
+      "commit": "259f0e48bba840c3a2e0d117539e96937f3d89bc",
+      "path": "jyut6ping3.words.dict.yaml",
+      "url": "https://github.com/rime/rime-cantonese/blob/259f0e48bba840c3a2e0d117539e96937f3d89bc/jyut6ping3.words.dict.yaml",
+      "local_path": "vendor/rime-cantonese/jyut6ping3.words.dict.yaml",
+      "license": "CC-BY-4.0",
+      "size": 2630257,
+      "sha256": "54d174ad2bb997e4a678b7b076b84e4dc5914481b32467cdea3b43e88b7d5474",
+      "git_blob_sha1": "5e581cee9fd38e6063e0ea90bc947e9299bdc3e3",
+      "purpose": "Curated phrase text"
+    },
+    {
+      "repository": "https://github.com/openvanilla/McBopomofo",
+      "commit": "be6564acad6c4d3265c34a2e1a872d80f9db6068",
+      "path": "Source/Data/phrase.occ",
+      "url": "https://github.com/openvanilla/McBopomofo/blob/be6564acad6c4d3265c34a2e1a872d80f9db6068/Source/Data/phrase.occ",
+      "local_path": "vendor/mcbopomofo/Source/Data/phrase.occ",
+      "license": "MIT",
+      "size": 1768276,
+      "sha256": "dcd11597090b2bef88fb385bdd567e235ccd916728c84b8d0d3f8069ccfc7b8d",
+      "git_blob_sha1": "83bce1488f951a36fb0379dbacd396111d685691",
+      "purpose": "Exact phrase-overlap occurrence counts and greeting supplement 你好"
+    }
+  ],
+  "phrase_lexicon": {
+    "builder": "scripts/build_phrases.py",
+    "stats": "resources/phrase-dictionary-stats.json",
+    "artifact": "resources/quick-phrases.tsv",
+    "licenses": [
+      "CC-BY-4.0",
+      "MIT"
+    ],
+    "source_spelling_policy": "No character substitution or script conversion; every retained codepoint has a shipped Quick code.",
+    "excluded_research_sources": [
+      "rime-cantonese essay-cantonese.txt",
+      "rime-cantonese jyut6ping3.phrase.dict.yaml",
+      "rime-cantonese jyut6ping3.maps.dict.yaml"
+    ],
+    "supporting_files": [
+      {
+        "path": "vendor/rime-cantonese/LICENSE-CC-BY",
+        "size": 18657,
+        "sha256": "97d24386ff776d7160b87031b259a942bd03c9939796cab6724ad5d17d2cf785"
+      },
+      {
+        "path": "vendor/rime-cantonese/README-en.md",
+        "size": 6099,
+        "sha256": "159ae4384c0de771e76952abb5e83e52567dc3ddebfa23435f451f385cfac4f6"
+      },
+      {
+        "path": "vendor/mcbopomofo/LICENSE.txt",
+        "size": 1083,
+        "sha256": "72ed32193b0c629def66df63791b2fb125946b593a3251380e6b949488f47b72"
+      },
+      {
+        "path": "vendor/mcbopomofo/README.markdown",
+        "size": 1879,
+        "sha256": "9a3b67a4231bfabc7a6dc0081918f423cea378cd34f9f56c45fca2369a405536"
+      },
+      {
+        "path": "vendor/mcbopomofo/Source/Data/README.md",
+        "size": 4478,
+        "sha256": "4b2eea7122a2a4d8bea7f23f611c6817d681a55d397b1ba3f8100acbfeb9f82e"
+      }
+    ]
+  },
+  "character_classification_overrides": {
+    "path": "resources/traditional-variant-allowlist.json",
+    "sha256": "870c15c41f8b6a259ed39997aa4526be815cad871b9eedfaac89253a1f621afa",
+    "reviewed_characters": [
+      "群",
+      "峰",
+      "晒"
+    ],
+    "reviewed_date": "2026-10-05",
+    "evidence": [
+      {
+        "character": "群",
+        "opencc_target": "羣",
+        "reason": "A normal traditional form used in Hong Kong Cantonese and traditional Mandarin; OpenCC's preferred variant does not make this spelling simplified-only.",
+        "evidence_urls": [
+          "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/pho-rel.php?s1=kw&s2=an",
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=103808&la=1&powerMode=0",
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=6729&la=0&powerMode=0"
+        ]
+      },
+      {
+        "character": "峰",
+        "opencc_target": "峯",
+        "reason": "A normal traditional form documented in the Chinese University of Hong Kong Cantonese character database and Taiwan Ministry of Education dictionary.",
+        "evidence_urls": [
+          "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/pho-rel.php?s1=f&s2=ung&s3=1",
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=1736&word=%3D%E5%B3%B0",
+          "https://dict.revised.moe.edu.tw/dictView.jsp?ID=37377&la=0&powerMode=0"
+        ]
+      },
+      {
+        "character": "晒",
+        "opencc_target": "曬",
+        "reason": "A traditional variant and common Cantonese spelling documented alongside 曬 by the Chinese University of Hong Kong; also present in traditional Ministry of Education dictionary entries. Keep this spelling without replacing it with 曬.",
+        "evidence_urls": [
+          "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%99%92",
+          "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/pho-rel.php?s1=s&s2=aai",
+          "https://dict.revised.moe.edu.tw/searchR.jsp?ID=4&ID=6&ID=72&la=0&powerMode=0&word=%E6%99%92"
+        ]
+      }
+    ],
+    "scope": "Retain unchanged licensed Cangjie records through the OpenCC non-identity filter, still requiring Big5-HKSCS support. No general exemption, variant replacement, or new code generation."
+  }
+}

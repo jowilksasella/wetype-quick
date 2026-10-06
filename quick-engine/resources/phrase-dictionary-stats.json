@@ -1,0 +1,279 @@
+{
+  "entries": 100032,
+  "curated_entries": 100031,
+  "source_records": 103077,
+  "excluded_source_records": {
+    "outside_2_8_codepoints": 796,
+    "character_not_in_quick_dictionary": 1013,
+    "duplicate_pronunciation_record": 1237
+  },
+  "duplicate_occurrence_records_max_merged": 3,
+  "supplements": [
+    "你好"
+  ],
+  "length_counts": {
+    "2": 47472,
+    "3": 23839,
+    "4": 22982,
+    "5": 3360,
+    "6": 1324,
+    "7": 802,
+    "8": 253
+  },
+  "phrases_with_positive_occurrence_count": 33077,
+  "neutral_weight_phrases": 66955,
+  "weight_semantics": "Higher is earlier; McBopomofo occurrence count when positive, otherwise neutral 1. Not Hong Kong usage probabilities.",
+  "max_weight": 39591,
+  "unique_characters": 6577,
+  "phrases_containing_reviewed_variants": 390,
+  "unsupported_character_examples": {
+    "爲": 414,
+    "，": 103,
+    "僞": 37,
+    "霉": 27,
+    "虱": 19,
+    "掕": 18,
+    "扑": 16,
+    "吓": 14,
+    "叠": 14,
+    "凄": 11,
+    "𪐀": 10,
+    "㞘": 9,
+    "㞓": 9,
+    "响": 9,
+    "炖": 6,
+    "厾": 6,
+    "恒": 6,
+    "鳾": 6,
+    "㨢": 6,
+    "担": 5
+  },
+  "source_sha256": {
+    "vendor/rime-cantonese/jyut6ping3.words.dict.yaml": "54d174ad2bb997e4a678b7b076b84e4dc5914481b32467cdea3b43e88b7d5474",
+    "vendor/mcbopomofo/Source/Data/phrase.occ": "dcd11597090b2bef88fb385bdd567e235ccd916728c84b8d0d3f8069ccfc7b8d"
+  },
+  "character_dictionary_sha256": "00c90f66652aea04a603a772b58200a327a1550e90998d9d628e0e223f902fdc",
+  "output_sha256": "c2c5b94c25ed0e8d2c30a5f195197f2659948c03f03be709d30176ddd48c27b0",
+  "output_bytes": 1201192,
+  "sample_coverage": {
+    "測試": {
+      "weight": 837,
+      "character_quick_codes": [
+        [
+          "en"
+        ],
+        [
+          "ym"
+        ]
+      ]
+    },
+    "香港": {
+      "weight": 1809,
+      "character_quick_codes": [
+        [
+          "ha"
+        ],
+        [
+          "eu"
+        ]
+      ]
+    },
+    "你好": {
+      "weight": 121,
+      "character_quick_codes": [
+        [
+          "of"
+        ],
+        [
+          "vd"
+        ]
+      ]
+    },
+    "唔該": {
+      "weight": 1,
+      "character_quick_codes": [
+        [
+          "rr"
+        ],
+        [
+          "yo"
+        ]
+      ]
+    },
+    "多謝": {
+      "weight": 33,
+      "character_quick_codes": [
+        [
+          "ni"
+        ],
+        [
+          "yi"
+        ]
+      ]
+    },
+    "返工": {
+      "weight": 1,
+      "character_quick_codes": [
+        [
+          "ye"
+        ],
+        [
+          "mm"
+        ]
+      ]
+    },
+    "食飯": {
+      "weight": 1,
+      "character_quick_codes": [
+        [
+          "ov"
+        ],
+        [
+          "oe"
+        ]
+      ]
+    },
+    "的士": {
+      "weight": 1,
+      "character_quick_codes": [
+        [
+          "hi",
+          "hm"
+        ],
+        [
+          "jm"
+        ]
+      ]
+    },
+    "巴士": {
+      "weight": 205,
+      "character_quick_codes": [
+        [
+          "au"
+        ],
+        [
+          "jm"
+        ]
+      ]
+    },
+    "港鐵": {
+      "weight": 1,
+      "character_quick_codes": [
+        [
+          "eu"
+        ],
+        [
+          "cg"
+        ]
+      ]
+    },
+    "八達通": {
+      "weight": 1,
+      "character_quick_codes": [
+        [
+          "ho"
+        ],
+        [
+          "yq"
+        ],
+        [
+          "yb"
+        ]
+      ]
+    },
+    "冇問題": {
+      "weight": 1,
+      "character_quick_codes": [
+        [
+          "kb"
+        ],
+        [
+          "ar"
+        ],
+        [
+          "ac"
+        ]
+      ]
+    },
+    "輸入法": {
+      "weight": 432,
+      "character_quick_codes": [
+        [
+          "jn",
+          "jv"
+        ],
+        [
+          "oh"
+        ],
+        [
+          "ei"
+        ]
+      ]
+    },
+    "群組": {
+      "weight": 44,
+      "character_quick_codes": [
+        [
+          "sq"
+        ],
+        [
+          "vm"
+        ]
+      ]
+    },
+    "山峰": {
+      "weight": 34,
+      "character_quick_codes": [
+        [
+          "u"
+        ],
+        [
+          "uj"
+        ]
+      ]
+    },
+    "晒冷": {
+      "weight": 1,
+      "character_quick_codes": [
+        [
+          "aw"
+        ],
+        [
+          "ii",
+          "il"
+        ]
+      ]
+    },
+    "晒命": {
+      "weight": 1,
+      "character_quick_codes": [
+        [
+          "aw"
+        ],
+        [
+          "ol"
+        ]
+      ]
+    },
+    "唔該晒": {
+      "weight": 1,
+      "character_quick_codes": [
+        [
+          "rr"
+        ],
+        [
+          "yo"
+        ],
+        [
+          "aw"
+        ]
+      ]
+    }
+  },
+  "limitations": [
+    "Curated finite lexicon; arbitrary unseen phrases are not invented.",
+    "Some Hong Kong forms are excluded by the existing traditional/HKSCS character repertoire.",
+    "Weights come from a Taiwan-oriented Mandarin source on exact-text overlap; most Cantonese-only phrases have neutral weight.",
+    "No script normalization, transliteration, surrounding-text modeling, or keystroke transmission."
+  ]
+}

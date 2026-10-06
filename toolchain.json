@@ -1,0 +1,18 @@
+{
+  "apktool.jar": {
+    "url": "https://github.com/iBotPeaches/Apktool/releases/download/v3.0.3/apktool_3.0.3.jar",
+    "sha256": "dbf930b076c6b9be08d57c449cacefc3bdd6b71ebd59b3066fc0e1f5b14f9423"
+  },
+  "ecj.jar": {
+    "url": "https://repo.maven.apache.org/maven2/org/eclipse/jdt/ecj/3.46.0/ecj-3.46.0.jar",
+    "sha256": "d0d43f8e2d7003e5efed612e2cbb5f01870043397d8f1bbe536fd9128f4fcbf7"
+  },
+  "r8.jar": {
+    "url": "https://dl.google.com/dl/android/maven2/com/android/tools/r8/9.4.28/r8-9.4.28.jar",
+    "sha256": "51af0a9d41cc541d619064224aec628923bd779cbcc5a62cb914ea2d669c4063"
+  },
+  "android-all.jar": {
+    "url": "https://repo.maven.apache.org/maven2/org/robolectric/android-all/16-robolectric-13921718/android-all-16-robolectric-13921718.jar",
+    "sha256": "8b74a0a137330658d2f33f0dc715d42734f74ba8b2d7014fc2e95aa40d3f682d"
+  }
+}

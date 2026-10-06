@@ -1,0 +1,75 @@
+1
+00:00:00,000 --> 00:00:04,000
+WeType Quick: an unofficial Quick input patch for WeType.
+
+2
+00:00:04,000 --> 00:00:07,000
+This is an illustrated introduction, not a phone screen recording.
+
+3
+00:00:07,000 --> 00:00:11,000
+Choose Quick (速成) in the original keyboard/input-method picker.
+
+4
+00:00:11,000 --> 00:00:15,000
+Switch back to an original input mode whenever needed.
+
+5
+00:00:15,000 --> 00:00:20,000
+Type enym continuously, corresponding to the roots 水弓卜一.
+
+6
+00:00:20,000 --> 00:00:24,000
+The roots stay in the composition area; suggestions include 測試.
+
+7
+00:00:24,000 --> 00:00:29,000
+Select a suggestion to commit the text to the input field.
+
+8
+00:00:29,000 --> 00:00:34,000
+Quick connects to the original keys, suggestion strip, and expanded list.
+
+9
+00:00:34,000 --> 00:00:38,000
+This diagram shows the structure; the actual appearance varies by settings and device.
+
+10
+00:00:38,000 --> 00:00:43,000
+Compose words and phrases, up to 8 characters or 16 roots at a time.
+
+11
+00:00:43,000 --> 00:00:48,000
+Quick learns selection ranking locally; long-press a suggestion to pin or remove it.
+
+12
+00:00:48,000 --> 00:00:54,000
+The upward clear gesture on Delete clears roots and text before the cursor.
+
+13
+00:00:54,000 --> 00:00:59,000
+Text after the cursor remains. This Quick clear action has no downward-swipe undo.
+
+14
+00:00:59,000 --> 00:01:05,000
+If Bluetooth is detected when voice input starts, the patch requests the phone's built-in mic.
+
+15
+00:01:05,000 --> 00:01:10,000
+Devices may ignore that preference, and re-signing may affect offline speech recognition.
+
+16
+00:01:10,000 --> 00:01:14,000
+The added Quick engine runs locally. The original app's network behavior has not been fully audited.
+
+17
+00:01:14,000 --> 00:01:18,000
+The project provides added source code and patch tools; obtain the supported original APK yourself.
+
+18
+00:01:18,000 --> 00:01:22,000
+See the project README for rebuild instructions, limitations, and licenses.
+
+19
+00:01:22,000 --> 00:01:25,000
+An unofficial project, not affiliated with or endorsed by Tencent.

@@ -1,0 +1,22 @@
+{
+  "entries": 18105,
+  "characters": 17213,
+  "quick_codes": 622,
+  "excluded": {
+    "non_hkscs": 78172,
+    "opencc_non_identity_not_allowlisted": 3921,
+    "non_character_or_code": 0,
+    "duplicates": 1412
+  },
+  "reviewed_traditional_variants": [
+    "峰",
+    "晒",
+    "群"
+  ],
+  "retained_variant_entries": 3,
+  "variant_allowlist_sha256": "870c15c41f8b6a259ed39997aa4526be815cad871b9eedfaac89253a1f621afa",
+  "source_sha256": "c909ee240f7f104bdf9841493cdae677fcd27c201e17eee679044714a9f132d5",
+  "filter_sha256": "a0ca1601c70648cf48b33c3c6210ccbecc5c7eead4b4c3daf76587ba2c03582b",
+  "output_sha256": "00c90f66652aea04a603a772b58200a327a1550e90998d9d628e0e223f902fdc",
+  "output_bytes": 330984
+}
